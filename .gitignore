@@ -1,0 +1,15 @@
+data/custom
+data/raw
+data/processed
+data/processed_test
+models/DeepLab
+models/FCNResnetTransfer
+models/SegmentationCNN
+models/UNet
+.venv/
+venv/
+src/__pycache__/
+scripts/__pycache__/
+preprocessing/__pycache__
+results/
+wandb/

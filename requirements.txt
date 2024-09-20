@@ -1,0 +1,17 @@
+numpy
+matplotlib
+tifffile
+scipy
+xarray
+halo
+torch
+torchvision
+torchaudio
+pytorch_lightning
+scikit-learn
+opencv-python
+pyprojroot
+umap-learn
+wandb
+rich
+image
