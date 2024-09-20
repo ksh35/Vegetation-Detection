@@ -1,6 +1,6 @@
 ### Description
 
-This project focuses on vegetataion health classification using RGB images. Satellite data vegetation quality can be scored using NDVI formula. However, this requires the image to have the near infrared(NIR) band. Not all satellites and images have this band, so we are using machine learning to predict vegetation quality using the RGB bands of the images. The ground truths are still generated using the NDVI formula, however, the model only makes predictions using the RGB bands. This can help expand vegetation classification abilities to satelites that do not capture the NIR band.
+This project focuses on vegetation health classification using RGB images. Satellite data vegetation quality can be scored using NDVI formula. However, this requires the image to have the near infrared(NIR) band. Not all satellites and images have this band, so we are using machine learning to predict vegetation quality using the RGB bands of the images. The ground truths are still generated using the NDVI formula, however, the model only makes predictions using the RGB bands. This can help expand vegetation classification abilities to satelites that do not capture the NIR band.
 
 ### Examples 
 <figure>
@@ -62,14 +62,6 @@ You can now either test the model against landsat data to see how it performs ag
     - Example: <code> python -m src.visualization.custom_input_prediction --model_path models/DeepLab/last.ckpt --image_path data/custom/sf.jpg</code>
 8. The root directory will now have the predicted NDVI image in a png format.
 
-
-### Misc
-**Example images in assets folder** \
-**Current Best Model:** https://drive.google.com/file/d/14R9OJwlghJTmUqbbsUOP4lBIuaa3Nkg4/view?usp=sharing \
-**Slides:** https://docs.google.com/presentation/d/1EjcCBLcoH6SfU5DMgBaSE7IU-kvOn_3ahglE-S1Dl-Y/edit?usp=drive_link \
-**Poster:** https://docs.google.com/presentation/d/1epWa1_5g9kKUYlkE6Ws1Gx9Ent8V2MwTp0Ex3F8DJoQ/edit?usp=drive_link \
-**Presentation:** https://drive.google.com/file/d/1kkaNfF--ip63HndEfeTeahQiOQedj18f/view?usp=drive_link \
-**Tech Memo:** In Progress
 
 ### Citing
 If you use this repository, this is the citation: \
